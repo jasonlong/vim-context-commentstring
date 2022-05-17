@@ -25,10 +25,10 @@ let g:context#commentstring#table['javascript.jsx'] = {
 			\ 'jsxTag' : '{/*%s*/}',
 			\}
 
-let g:context#commentstring#table['typescript.jsx'] =
+let g:context#commentstring#table['typescriptreact'] =
 			\ g:context#commentstring#table['javascript.jsx']
 
-let g:context#commentstring#table['typescript.tsx'] = {
+let g:context#commentstring#table['typescriptreact'] = {
 			\ 'tsComment' : '//%s',
 			\ 'tsImport' : '//%s',
 			\ 'tsxStatment' : '//%s',
