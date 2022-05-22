@@ -29,11 +29,11 @@ let g:context#commentstring#table['typescriptreact'] =
 			\ g:context#commentstring#table['javascript.jsx']
 
 let g:context#commentstring#table['typescriptreact'] = {
-			\ 'tsComment' : '//%s',
-			\ 'tsImport' : '//%s',
-			\ 'tsxStatment' : '//%s',
-			\ 'tsxRegion' : '{/*%s*/}',
-			\ 'tsxTag' : '{/*%s*/}',
+			\ 'jsComment' : '//%s',
+			\ 'jsImport' : '//%s',
+			\ 'jsxStatment' : '//%s',
+			\ 'jsxRegion' : '{/*%s*/}',
+			\ 'jsxTag' : '{/*%s*/}',
 			\}
 
 let g:context#commentstring#table['vue'] = {
